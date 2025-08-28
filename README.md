@@ -18,6 +18,8 @@ This project demonstrates how to:
 - **Math Agent** → Solves math problems, explains steps, adds mathematician contributions.
 - **Search Agent** → Provides detailed answers or generates similar math problems.
 - **Summarizer Agent** → Summarizes long answers concisely.
+- **Branching** → Queries dynamically route into different paths (Math or Search).
+- **Looping** → Workflow supports repeated cycles (e.g., generating and solving extra math problems).
 - **Interactive Workflow** → User can request summaries or extra practice problems.
 - **Visualization** → Workflow diagram with LangGraph.
 
