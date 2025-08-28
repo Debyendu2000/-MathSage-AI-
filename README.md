@@ -101,14 +101,14 @@ It will:
 
 ```mermaid
 graph TD
-    START --> Router
-    Router -->|Math| MathAgent
-    Router -->|Search| SearchAgent
-    MathAgent -->|Similar Problems| SearchAgent
-    MathAgent -->|Done| END
-    SearchAgent -->|Generate Similar| MathAgent
-    SearchAgent -->|Search Done| Summarizer
-    Summarizer --> END
+    START --> router_agent
+    router_agent -->|Math| math_agent
+    router_agent -->|Search| search_agent
+    math_agent --> search_agent
+    math_agent --> END
+    search_agent --> math_agent
+    search_agent --> summarizer_agent
+    summarizer_agent --> END
 ```
 
 ---
