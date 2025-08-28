@@ -140,11 +140,4 @@ MATHEMATICIAN CONTRIBUTIONS:
 
 ---
 
-## 🛠 Improvements (Optional)
-- Add **real web search** integration (e.g., Tavily, SerpAPI)
-- Add **caching** to avoid repeated API calls
-- Replace `input()` with UI/async for production
-- Extend agents with **domain-specific tools**
-
----
 
