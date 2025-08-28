@@ -109,6 +109,7 @@ graph TD
     math_agent --> search_agent
     math_agent --> END
     search_agent --> math_agent
+    search_agent --> END
     search_agent --> summarizer_agent
     summarizer_agent --> END
 ```
