@@ -145,5 +145,3 @@ MATHEMATICIAN CONTRIBUTIONS:
 
 ---
 
-## 📜 License
-MIT License. Use freely for learning and projects.
